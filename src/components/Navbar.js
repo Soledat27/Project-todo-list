@@ -48,6 +48,9 @@ const Navbar = () => {
         <a href="">About</a>
         <a href="">Testimonials</a>
         <a href="">Contact</a>
+        <a href="">Contact</a>
+        <a href="">Contact</a>
+        <a href="">Contact</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
