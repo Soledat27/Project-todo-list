@@ -44,14 +44,14 @@ const Navbar = () => {
 
     <div className="home-container">
         <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
+        <a href="">Список дел</a>
+        <a href="">В процессе</a>
+        <a href="">Готово</a>
+        <a href="">что нибудь добовим</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <button className="primary-button">SIGN UPTHHYYHYHRSYHRYRHYRSHYRYRH</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
