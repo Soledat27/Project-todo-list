@@ -44,15 +44,15 @@ const Navbar = () => {
 
     <div className="home-container">
         <div className="navbar-links-container">
-        <a href="">Список дел</a>
-        <a href="">В процессе</a>
-        <a href="">Готово</a>
-        <a href="">что нибудь добовим</a>
+          
+        <a href="">List of things</a>
+        <a href="">In process</a>
+        <a href="">Done</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">SIGN UPTHHYYHYHRSYHRYRHYRSHYRYRH</button>
-      </div>
+        <button className="primary-button">SIGN UP</button>
+        </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>
@@ -63,8 +63,7 @@ const Navbar = () => {
           onClick={() => setOpenMenu(false)}
           onKeyDown={() => setOpenMenu(false)}
         >
-          <List>
-            {menuOptions.map((item) => (
+z            {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <ListItemButton>
                   <ListItemIcon>{item.icon}</ListItemIcon>
@@ -72,7 +71,7 @@ const Navbar = () => {
                 </ListItemButton>
               </ListItem>
             ))}
-          </List>
+       
           <Divider />
         </Box>
       </Drawer>
